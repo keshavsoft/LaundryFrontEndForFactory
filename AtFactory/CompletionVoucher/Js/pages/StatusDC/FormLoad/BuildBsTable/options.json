@@ -8,6 +8,7 @@
     "data": [],
     "onClickRow": "",
     "pagination":"true",
+    "pageList":"[5,10, 25, 50, 100, all]",
     "url": "/Custom/Clients/Laundry/Factory/Outward/Scan/Voucher/QrStatus/$FactoryName",
     "columns": [
         {

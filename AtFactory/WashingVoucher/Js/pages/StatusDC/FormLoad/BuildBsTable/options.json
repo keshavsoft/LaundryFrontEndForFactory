@@ -6,6 +6,7 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "pagination":"true",
+    "pageList":"[5,10, 25, 50, 100, all]",
     "data": [],
     "onClickRow": "",
     "url": "/Custom/Clients/Laundry/Factory/Process/Washing/Scan/Voucher/QrStatus/$FactoryName",

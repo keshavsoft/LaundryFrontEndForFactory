@@ -5,9 +5,9 @@ let StartFunc = ({ inFindColumn }) => {
 let jVarLocalFormatterFunc = (value, row, index) => {
     console.log("value : ", value);
     if (value === true) {
-        return '<span class="badge bg-success">Scanned</span>';
+        return '<span class="badge bg-success">Returned</span>';
     } else {
-        return '<span class="badge bg-danger">Pending</span>';
+        return 'Instock';
     };
 };
 

@@ -7,6 +7,8 @@
     "onClickRow": "",
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
+    "pagination":"true",
+    "pageList":"[5,10, 25, 50, 100, all]",
     "rowStyle": "rowStyle",
     "url": "/Custom/Clients/Laundry/Factory/Inward/Scan/Voucher/$FactoryName",
     "columns": [

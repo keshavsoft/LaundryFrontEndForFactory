@@ -9,6 +9,7 @@
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
     "pagination":"true",
+    "pageList":"[5,10, 25, 50, 100, all]",
     "url": "/Custom/Clients/Laundry/Factory/Outward/Scan/Voucher/$FactoryName",
     "columns": [
         {
