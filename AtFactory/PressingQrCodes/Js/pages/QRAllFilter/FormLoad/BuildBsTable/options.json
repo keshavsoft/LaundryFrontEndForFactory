@@ -53,7 +53,7 @@
             "filterControl": "select"
         },
         {
-            "title": "Scan",
+            "title": "Status",
             "field": "Status",
             "filterControl": "select"
         },
