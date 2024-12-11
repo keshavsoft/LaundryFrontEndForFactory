@@ -52,7 +52,7 @@
   {
     "name": "Status",
     "key": "Status",
-    "icon": "stack",
+    "icon": "bi bi-check-circle-fill",
     "submenu": [
       {
         "name": "DC",

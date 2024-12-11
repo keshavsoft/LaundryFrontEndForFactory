@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Cleaning/Factory/V1/Process/Pressing/ReWash/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/ReWashDC/Show"
+            "GetUrl": "/binV4/Press_ReWashDC/Show"
         },
         "DcCount": {
             "GetUrl": "/Custom/Cleaning/Factory/V1/Process/Pressing/ReWash/QrCode/RowCount"
