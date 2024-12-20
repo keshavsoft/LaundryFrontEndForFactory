@@ -9,7 +9,7 @@
     "queryParams": "",
     "rowStyle": "",
     "pagination": "true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5, 10, 25, 50, 100, All]",
     "pageSize": "5",
     "filterControl": true,
     "columns": [
@@ -20,7 +20,7 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
+            "title": "Qr Code",
             "filterControl": "select"
         },
         {
@@ -38,7 +38,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item Name",
             "filtercontrol": "select"
         },
         {
@@ -59,12 +59,12 @@
             "filtercontrol": "select"
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filterControl": "select"
         },
         {
-            "title": "TimeSpan",
+            "title": "Time Span",
             "field": "TimeSpan",
             "filtercontrol": "select"
         }

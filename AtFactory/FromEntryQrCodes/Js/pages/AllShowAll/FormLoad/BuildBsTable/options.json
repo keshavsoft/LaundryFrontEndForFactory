@@ -8,7 +8,7 @@
     "responseHandler": "",
     "queryParams": "",
     "pagination": "true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5, 10, 25, 50, 100, All ]",
     "pageSize": "5",
     "rowStyle": "rowStyle",
     "columns": [
@@ -19,7 +19,7 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr Code"
         },
         {
             "field": "OrderNumber",
@@ -35,7 +35,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName"
+            "title": "Item Name"
         },
         {
             "field": "Rate",
@@ -44,7 +44,7 @@
             "footerFormatter": ""
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filterControl": "select"
         },
@@ -54,7 +54,7 @@
             "filterControl": "select"
         },
         {
-            "title": "GenSpan",
+            "title": "Gen Span",
             "field": "TimeSpan"
         }
     ]

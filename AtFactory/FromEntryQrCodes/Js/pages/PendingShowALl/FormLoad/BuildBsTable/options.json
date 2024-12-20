@@ -8,7 +8,7 @@
     "responseHandler": "",
     "queryParams": "",
     "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5, 10, 25, 50, 100, All ]",
     "pageSize": "5",
    
     "columns": [
@@ -19,7 +19,7 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
+            "title": "Qr Code",
             "filtercontrol": "select"
         },
         {
@@ -37,7 +37,7 @@
       
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item Name",
             "filtercontrol": "select"
         },
         {
@@ -48,7 +48,7 @@
             "footerFormatter": ""
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filtercontrol": "select"
             

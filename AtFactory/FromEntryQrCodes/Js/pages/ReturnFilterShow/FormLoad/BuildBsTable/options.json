@@ -9,7 +9,7 @@
     "queryParams": "",
     "rowStyle": "rowStyle",
     "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5, 10, 25, 50, 100, All ]",
     "pageSize": "5",
    
     "filterControl": true,
@@ -20,7 +20,7 @@
             "formatter": ""
         },
         {
-            "title": "QrCode",
+            "title": "Qr Code",
             "field": "QrCodeId",
             "filterControl": "select"
         },
