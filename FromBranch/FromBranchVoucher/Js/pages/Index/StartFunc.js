@@ -5,13 +5,13 @@ const StartFunc = () => {
 
     if (jVarLocalFromAdmin) {
         StartFuncFormLoad();
-        jFLocalLeftSide();
+        // jFLocalLeftSide();
        
     };
 };
 
-const jFLocalLeftSide = () => {
-    document.querySelector(".revenue-card").querySelector("h6").innerHTML = "16";
-};
+// const jFLocalLeftSide = () => {
+//     document.querySelector(".revenue-card").querySelector("h6").innerHTML = "16";
+// };
 
 StartFunc();
