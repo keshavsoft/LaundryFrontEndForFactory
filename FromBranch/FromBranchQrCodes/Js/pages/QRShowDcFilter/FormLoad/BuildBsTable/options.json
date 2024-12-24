@@ -11,6 +11,7 @@
     "pagination": "true",
     "pageList": "[5, 10, 25, 50, 100, All]",
     "pageSize": "5",
+    "filterControl":true,
    
     "columns": [
         {
@@ -39,7 +40,7 @@
         {
             "field": "ItemName",
             "title": "Item Name",
-            "filterControl": "select"
+           "filterControl": "select"
         },
         {
             "field": "Rate",
@@ -51,7 +52,7 @@
         {
             "field": "VoucherNumber",
             "title": "DC #",
-            "filterControl": "select"
+           "filterControl": "select"
         },
         {
             "title": "DC Date",
@@ -60,7 +61,7 @@
         {
             "title": "Branch",
             "field": "BranchName",
-            "filterControl": "select"
+           "filterControl": "select"
         },
         {
             "title": "Status",
@@ -69,8 +70,9 @@
         },
         {
             "title": "Return",
-            "field": "EntryReturnStarus",
-            "filterControl": "select"
+            "filterControl": "select",
+            "field": "EntryReturnStarus"
+           
         },
         {
             "title": "Gen Span",

@@ -56,6 +56,10 @@
         {
             "title": "Time Span",
             "field": "TimeSpan"
+        },
+        {
+            "title": "Rewash",
+            "field": "Rewash"
         }
     ]
 }

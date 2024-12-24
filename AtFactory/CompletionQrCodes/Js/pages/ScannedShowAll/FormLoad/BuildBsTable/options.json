@@ -19,7 +19,7 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode",
+            "title": "Qr Code",
             "filtercontrol": "select"
         },
         {
@@ -36,7 +36,7 @@
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item Name",
             "filtercontrol": "select"
         },
         {
@@ -57,11 +57,11 @@
             "filtercontrol": "select"
         },
         {
-            "title": "ReWash",
+            "title": "Re Wash",
             "field": "ReWashStatus"
         },
         {
-            "title": "BranchName",
+            "title": "Branch Name",
             "field": "BranchName",
             "filtercontrol": "select"
         },
@@ -71,7 +71,7 @@
             "filtercontrol": "select"
         },
         {
-            "title": "TimeSpan",
+            "title": "Time Span",
             "field": "TimeSpan",
             "filtercontrol": "select"
         }

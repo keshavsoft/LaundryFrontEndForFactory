@@ -31,6 +31,10 @@
       {
         "name": "BranchDCItems",
         "url": "ShowDCBranchItems.html"
+      },
+      {
+        "name": "DCEntryCancelItems",
+        "url": "ShowDCEntryCancel.html"
       }
     ]
   },
