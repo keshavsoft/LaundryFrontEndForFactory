@@ -7,6 +7,11 @@ let StartFunc = async ({ inrowData }) => {
 
     if (jVarLocalDataNeeded.status === 200) {
         StartFuncAfterFetch({ inrowData });
+    } else {
+        Swal.fire({
+            title: "Already generated",
+            icon: "warning"
+        });
     };
 };
 

@@ -4,8 +4,8 @@ let StartFunc = ({ inFindColumn }) => {
 
 let jVarLocalFormatterFunc = (value, row, index) => {
     return [
-        `<a class="like" href="./GenDcShow.html" title="DcGenarate">`,
-        `<i class="bi bi-cloud-download-fill"></i>`,
+        `<a class="like" href="#" title="DcGenarate">`,
+        `<button type="button" class="btn btn-dark"><i class="bi bi-boxes"></i></button>`,
         '</a>  '
     ].join('');
 };
