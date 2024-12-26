@@ -9,7 +9,7 @@
     "queryParams": "",
     "rowStyle": "rowStyle",
     "pagination":"true",
-    "pageList": "[5, 10, 25, 50, 100, all ]",
+    "pageList": "[5, 10, 25, 50, 100, all]",
     "pageSize": "10",
    
     "columns": [
@@ -58,8 +58,8 @@
             "field": "DCDate"
         },
         {
-            "title": "Branch Name",
-            "field": "BranchName"
+            "title": "BranchName",
+            "field": "Branch Name"
         },
         {
             "title": "Status",
