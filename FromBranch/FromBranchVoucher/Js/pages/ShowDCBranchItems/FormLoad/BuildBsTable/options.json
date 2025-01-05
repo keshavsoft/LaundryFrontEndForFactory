@@ -15,7 +15,7 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFLocalSerialColumn"
+            "formatter": ""
         },
         {
             "field": "QrCodeId",
@@ -51,8 +51,8 @@
             "field": "Rate",
             "align":"right",
             "filtercontrol": "select",
-            "formatter": "symbolFormatPrice",
-            "footerFormatter":"priceFormatter"
+            "formatter": "",
+            "footerFormatter":""
         },
         {
             "title": "Time Span",
