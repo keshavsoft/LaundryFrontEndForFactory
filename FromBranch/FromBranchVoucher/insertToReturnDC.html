@@ -18,21 +18,21 @@
         </div>
     </div>
 
-        <!--  Inverse table start -->
-        <section class="section">
-            <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-            
-            <table class="table table-dark mb-0" id="table">
-                <thead>
-                    <tr>
-                        <th data-formatter="jFGlobalSerialColumn">#</th>
-                    </tr>
-                </thead>
-            </table>
-        </section>
-        <!-- Inverse table end -->
+    <!--  Inverse table start -->
+    <section class="section">
+        <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+        <table class="table table-dark mb-0" id="table">
+            <thead>
+                <tr>
+                    <th data-formatter="jFGlobalSerialColumn">#</th>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <!-- Inverse table end -->
     <section class="section">
         <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
             <span class="visually-hidden">Loading...</span>
@@ -42,7 +42,9 @@
         </table>
     </section>
 </div>
+{% endblock %}
 
+{% block js %}
 
 <script>
     let jVarGlobalPresentViewData;
@@ -64,7 +66,7 @@
         ].join('')
 
     };
-   
+
     function priceFormatter(data) {
         var field = this.field
         return '' + data.map(function (row) {
@@ -73,11 +75,14 @@
             return sum + i
         }, 0)
     }
-   
-  
+
+
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+
 
 <!-- <script type="module" src="./Js/pages/insertToDC/StartFunc.js"></script> -->
 <script type="module" src="./Js/pages/insertToReturnDC/StartFunc.js"></script>

@@ -5,9 +5,10 @@
     "searchHighlight": true,
     "data": [],
     "onClickRow": "",
-    "pagination":"true",
+    "filterControl": true,
+    "pagination": "true",
     "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",   
+    "pageSize": "5",
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
@@ -25,17 +26,16 @@
         },
         {
             "field": "Date",
-            "title": "Date",
-            "filtercontrol": "select"
-        },
-        {
-            "field": "Description",
-            "title": "Description",
-            "filtercontrol": "select"
+            "title": "Date"
         },
         {
             "field": "Branch",
-            "title": "BranchName"
+            "title": "BranchName",
+            "filterControl": "select"
+        },
+        {
+            "field": "Description",
+            "title": "Description"
         },
         {
             "title": "Items",

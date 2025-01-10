@@ -12,6 +12,7 @@ const StartFunc = () => {
     optionsJson.queryParams = queryParams;
     ForColumns({ inColumns: optionsJson.columns });
 
+
     $table.bootstrapTable(optionsJson);
 };
 
