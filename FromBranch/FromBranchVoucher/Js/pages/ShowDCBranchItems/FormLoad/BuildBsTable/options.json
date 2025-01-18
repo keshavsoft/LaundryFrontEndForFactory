@@ -5,10 +5,9 @@
     "searchHighlight": true,
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
-    "pagination":"true",
+    "pagination": "true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
-   
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -39,6 +38,7 @@
         {
             "field": "BranchName",
             "title": "Branch Name",
+            "visible": false,
             "filtercontrol": "select"
         },
         {
@@ -49,10 +49,10 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "formatter": "",
-            "footerFormatter":""
+            "footerFormatter": ""
         },
         {
             "title": "Time Span",

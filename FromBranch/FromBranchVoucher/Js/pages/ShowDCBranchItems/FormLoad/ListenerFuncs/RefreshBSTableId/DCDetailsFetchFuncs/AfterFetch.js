@@ -8,7 +8,7 @@ console.log("inDataToShow:",inDataToShow);
     jFLocalToInnerHtmlDescriptionTextId({ inDescriptionTextId: jVarLocalData.Description });
     jFLocalToInnerHtmlDateTextId({ inDateTextId: jVarLocalData.Date });
     // jFLocalToInnerHtmlFactoryTextId({ inFactoryTextId: jVarLocalData.Factory });
-    // jFLocalToInnerHtmlDCBranchNameTextId({ inDCBranchNameTextId: jVarLocalData.BranchName })
+    jFLocalToInnerHtmlDCBranchNameTextId({ inDCBranchNameTextId: jVarLocalData.BranchName })
 };
 
 let jFLocalToInnerHtmlpkTextId = ({ inpkTextId }) => {
@@ -44,7 +44,7 @@ let jFLocalToInnerHtmlDescriptionTextId = ({ inDescriptionTextId }) => {
 // };
 
 let jFLocalToInnerHtmlDCBranchNameTextId = ({ inDCBranchNameTextId }) => {
-    let jVarLocalHtmlId = 'DCBranchNameTextId';
+    let jVarLocalHtmlId = 'BranchNameTextId';
     let jVarLocalDCBranchNameTextId = document.getElementById(jVarLocalHtmlId);
     jVarLocalDCBranchNameTextId.innerHTML = inDCBranchNameTextId;
 };
