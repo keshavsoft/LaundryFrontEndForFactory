@@ -24,13 +24,13 @@
             "filterControl": "select"
         },
         {
-            "title": "BranchName",
-            "field": "BranchName",
+            "title": "Status",
+            "field": "Status",
             "filterControl": "select"
         },
         {
-            "title": "Status",
-            "field": "Status",
+            "title": "BranchName",
+            "field": "BranchName",
             "filterControl": "select"
         },
         {

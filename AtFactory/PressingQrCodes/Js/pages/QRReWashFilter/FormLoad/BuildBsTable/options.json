@@ -12,7 +12,6 @@
     "pagination": "true",
     "pageList": "[5, 10, 25, 50, 100, All]",
     "pageSize": "5",
-   
     "columns": [
         {
             "field": "KS-Serial",
@@ -25,14 +24,13 @@
             "filtercontrol": "select"
         },
         {
-            "title": "Order #",
-            "field": "OrderNumber",
-            "filterControl": "select"
-        },
-        
-        {
             "title": "Status",
             "field": "ReWash",
+            "filterControl": "select"
+        },
+        {
+            "title": "Order #",
+            "field": "OrderNumber",
             "filterControl": "select"
         },
         {
@@ -48,7 +46,6 @@
             "title": "Delivery Date",
             "field": "DeliveryDate"
         },
-       
         {
             "title": "ItemName",
             "field": "ItemName",
@@ -57,9 +54,9 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
-            "formatter":"symbolFormat",
+            "formatter": "symbolFormat",
             "footerFormatter": "jVarLocalFormatterFunc"
         },
         {
