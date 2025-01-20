@@ -8,6 +8,7 @@
     "pagination": "true",
     "pageList": "[5, 10, 25 ]",
     "pageSize": "5",
+    "filterControl":true,
     "data": [],
     "onClickRow": "",
     "columns": [
@@ -19,6 +20,16 @@
         {
             "field": "QrCodeId",
             "title": "QrCode"
+        },
+        {
+            "field":"Status",
+            "title":"Scan",
+            "filterControl":"select"
+        },
+        {
+            "field":"Return",
+            "title":"Return",
+            "filterControl":"select"
         },
         {
             "field": "OrderNumber",
