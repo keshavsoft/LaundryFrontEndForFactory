@@ -22,6 +22,10 @@
             "title": "QrCode"
         },
         {
+            "title": "Wash",
+            "field": "Rewash"
+        },
+        {
             "field": "OrderNumber",
             "title": "OrderNumber",
             "filterControl": "select"
@@ -54,10 +58,6 @@
         {
             "title": "Time Span",
             "field": "TimeSpan"
-        },
-        {
-            "title": "Wash",
-            "field": "Rewash"
         }
     ]
 }
