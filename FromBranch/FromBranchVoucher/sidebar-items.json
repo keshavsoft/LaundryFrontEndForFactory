@@ -2,6 +2,11 @@
   {
     "name": "FromBranchVoucher",
     "isTitle": true
+  }, 
+  {
+    "name": "Factory Menu",
+    "url": "FactoryMenu.html",
+    "icon": "bi bi-house-door-fill"
   },
   {
     "name": "Dashboard",
