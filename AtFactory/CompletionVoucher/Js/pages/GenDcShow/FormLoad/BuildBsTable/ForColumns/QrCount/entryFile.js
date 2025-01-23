@@ -8,7 +8,7 @@ function jVarLocalFormatterFunc(value, row, index) {
     //    console.log("row",row);
 
     return [
-        `<a class="like btn" style="background-color: #0450a8; color:white;" href="./GenerateAllShowAll.html?BranchName=${row.BranchName}&RefDC=${row.RefDC}" title="Show">`,
+        `<a class="like btn" style="background-color: #0450a8; color:white;" href="./GenerateAllShowAll.html?BranchName=${row.BranchName}&RefDC=${row.pk}" title="Show">`,
         ' ',
         row.QrCount,
         '</a>',
