@@ -28,6 +28,11 @@
             "filterControl": "select"
         },
         {
+            "title": "Washing",
+            "field": "ReWashStatus",
+            "filterControl": "select"
+        },
+        {
             "field": "OrderDate",
             "title": "Order Date"
         },

@@ -29,6 +29,11 @@
             "field": "OrderNumber"
         },
         {
+            "title": "Washing",
+            "field": "ReWashStatus",
+            "filterControl": "select"
+        },
+        {
             "title": "Order Date",
             "field": "OrderDate"
         },

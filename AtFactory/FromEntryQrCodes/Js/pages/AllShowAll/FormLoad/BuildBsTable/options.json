@@ -22,13 +22,18 @@
             "title": "QrCode"
         },
         {
-            "title": "Branch Name",
-            "field": "BranchName",
+            "title": "Status",
+            "field": "Status",
             "filterControl": "select"
         },
         {
-            "title": "Status",
-            "field": "Status",
+            "title": "Washing",
+            "field": "ReWashStatus",
+            "filterControl": "select"
+        },
+        {
+            "title": "Branch Name",
+            "field": "BranchName",
             "filterControl": "select"
         },
         {
