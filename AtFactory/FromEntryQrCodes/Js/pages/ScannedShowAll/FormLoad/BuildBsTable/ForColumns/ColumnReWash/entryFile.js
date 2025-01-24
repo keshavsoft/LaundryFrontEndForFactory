@@ -4,11 +4,10 @@ let StartFunc = ({ inFindColumn }) => {
 
 let jVarLocalFormatterFunc = (value, row, index) => {
     console.log("value : ", value);
-    console.log("value : ", value);
     if (value === true) {
-        return '<span class="badge bg-success"> ✔</span>';
+        return '<span class="badge" style="background-color: #435ebe;">Washing</span>';
     } else {
-        return '<span class="badge bg-danger">✘</span>';
+        return '<span class="badge bg-success">Washed</span>';
     };
 };
 

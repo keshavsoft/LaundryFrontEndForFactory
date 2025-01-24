@@ -27,6 +27,10 @@
             "title": "Order #"
         },
         {
+            "title": "Washing",
+            "field": "ReWashStatus"
+        },
+        {
             "field": "OrderDate",
             "title": "Order Date"
         },

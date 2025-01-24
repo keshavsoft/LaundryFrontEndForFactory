@@ -30,6 +30,11 @@
             "filterControl": "select"
         },
         {
+            "title": "Washing",
+            "field": "ReWashStatus",
+            "filterControl": "select"
+        },
+        {
             "title": "BranchName",
             "field": "BranchName",
             "filterControl": "select"
