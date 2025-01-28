@@ -17,7 +17,8 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": ""
+            "formatter": "",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "pk",
@@ -27,21 +28,25 @@
         {
             "field": "Date",
             "title": "Date",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "BranchName",
             "title": "BranchName",
-            "filterControl":"select"
+            "filterControl":"select",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "TimeSpan",
-            "title": "TimeSpan"
+            "title": "TimeSpan",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "Description",
             "title": "Description",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
         },
         
         {
@@ -53,7 +58,8 @@
             "title": "FromBranch",
             "formatter": "",
             "field": "Sent",
-            "footerFormatter": ""
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "title": "Scanned",
@@ -70,7 +76,8 @@
         {
             "title": "EntryReturn",
             "field": "EntryCancel",
-            "footerFormatter": ""
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
         }
     ]
 }
