@@ -15,7 +15,8 @@
         {
             "field": "KS-Serial",
             "title": "#",
-            "formatter": "jFLocalSerialColumn"
+            "formatter": "jFLocalSerialColumn",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "pk",
@@ -25,12 +26,14 @@
         {
             "field": "Date",
             "title": "Date",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "field": "Description",
             "title": "Description",
-            "filtercontrol": "select"
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
         },
         {
             "title": "Qrs",
