@@ -20,66 +20,131 @@
 
         <!--  Inverse table start -->
         <section class="section">
-            <div class="row" id="table-inverse">
-                <div class="col-12">
-                    <div class="card mt-4" >
-                        <div class="card-content">
-                            <div class="card-body">
-                                <form class="form form-horizontal" id="FormId" onsubmit="return false">
-                                    <div class="form-body">
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <label for="Date">Date</label>
-                                            </div>
-                                            <div class="col-md-8 form-group">
-                                                <input type="date" id="Date" class="form-control" name="Date" placeholder="" required>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="Description">Description</label>
-                                            </div>
-                                            <div class="col-md-8 form-group">
-                                                <input type="text" id="Description" class="form-control" name="Description" placeholder="" required autofocus>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="FactoryName">Factory Name</label>
-                                            </div>
-                                            <div class="col-md-8 form-group">
-                                                <input type="text" id="FactoryName" class="form-control" name="FactoryName" readonly>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <label for="Branch">Branch</label>
-                                            </div>
-                                            <div class="col-md-8 form-group position-relative">
-                                                <div class="input-group">
-                                                    <select id="Branch" class="form-control" name="Branch" required>
-                                                        <option value="">Select Branch</option>
-                                                        <option value="KKD">KKD</option>
-                                                        <option value="ANFO">ANFO</option>
-                                                        <option value="CSO">CSO</option>
-                                                        <option value="GD">GD</option>
-                                                        <option value="GWK">GWK</option>
-                                                        <option value="KPA">KPA</option>
-                                                        <option value="LBC">LBC</option>
-                                                        <option value="MSNvzm">MSNvzm</option>
-                                                        <option value="MVP">MVP</option>
-                                                        <option value="NGGOS">NGGOS</option>
-                                                        <option value="VRNB">VRNB</option>
-                                                        <option value="SP">SP</option>
-                                                        <option value="VUDA">VUDA</option>
-                                                        <option value="VZM">VZM</option>
-                                                        <option value="YD">YD</option>
-                                                    </select>
-                                                    <span class="input-group-text">&#9662;</span> <!-- Unicode for a down arrow -->
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 d-flex justify-content-end">
-                                                <button class="btn btn-success me-1 mb-1" id="SaveButtonId">Save</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                                
+            <div class="row">
+                <div class="col m-3">
+                    <div class="row">
+                        <div class="col-2">
+                            <h6 style="display: inline;">DC No </h6>
+                        </div>
+                        <div class="col-1">:</div>
+                        <div class="col-2">
+                            <b>
+                                <input type="text" class="mb-2 form-control rounded p-2" style="display: inline;" id="VoucherNumberDCDetailsTextId" readonly disabled>
+                                 <!-- <p style="display: inline;" id="VoucherNumberDCDetailsTextId">Not found</p>  -->
+                            </b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <h6 style="display: inline;">Date: </h6>
+                        </div>
+                        <div class="col-1">:</div>
+        
+                        <div class="col-3">
+                            <b>
+                                <input type="text" class="mb-2 form-control rounded p-2" style="display: inline;" id="DateTextDCDetailsId" readonly disabled>
+                                <!-- <p style="display: inline;" id="DateTextDCDetailsId">Not found</p> -->
+                            </b>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col-2">
+                            <h6 style="display: inline;">Description</h6>
+                        </div>
+                        <div class="col-1">:</div>
+                        <div class="col-9">
+                            <b>
+                                <input type="text" class="mb-2 form-control rounded p-2" style="display: inline;" id="DescriptionTextDCDetailsId" readonly disabled>
+        
+                                <!-- <p style="display: inline;" id="DescriptionTextDCDetailsId">Not found</p> -->
+                            </b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2">
+                            <h6 style="display: inline;">ToFactory</h6>
+                        </div>
+                        <div class="col-1">:</div>
+                        <div class="col-3">
+                            <b>
+                                <input type="text" class="mb-2 form-control rounded p-2" style="display: inline;" id="DCFactoryDCDetailsTextId" readonly disabled>
+        
+                                <!-- <p style="display: inline;" id="DCFactoryDCDetailsTextId">Not found</p> -->
+                            </b>
+                        </div>
+                    </div>
+        
+        
+                    <div class="container">
+                        <button type="button" class="btn btn-primary mt-3 RowCountClass" style="font-size: 50px;"
+                            id="RowCountId">0</button>
+                    </div>
+        
+        
+                </div>
+        
+                <div class="col-md-6 col-12">
+                    <div class="card mt-2 border-primary">
+                        <div class="card-header">
+                            <h3>Scan Qrcode - <label id="BranchNameId"></label></h3>
+                        </div>
+        
+                        <div class="card-body">
+                            <div class="row">
+                                <label for="InputPkId" class="col-sm-12 col-form-label col-form-label-lg fs-3">QrCode</label>
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control form-control-lg" id="InputPkId"
+                                        placeholder="Scan QrCode" autofocus="">
+                                </div>
                             </div>
+        
+                            <div class="mb-3">
+                                <label for="InputProductNameId" class="form-label">Item Name</label>
+                                <input type="text" class="form-control" id="InputProductNameId" disabled>
+                            </div>
+                            <div class="mb-3">
+                                <label for="InputSalePriceId" class="form-label">Rate</label>
+                                <input type="text" class="form-control" id="InputSalePriceId" disabled>
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="InputFactorySelectedId" class="form-label">Factory Selected</label>
+                                <input type="text" class="form-control" id="InputFactorySelectedId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="InputVoucherRefId" class="form-label">Voucher Ref</label>
+                                <input type="text" class="form-control" id="InputVoucherRefId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="InputBranchNameId" class="form-label">Branch Name</label>
+                                <input type="text" class="form-control" id="InputBranchNameId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="VoucherNumberTextId" class="form-label">Voucher Number</label>
+                                <input type="text" class="form-control" id="VoucherNumberTextId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="DCFactoryTextId" class="form-label">DC Factory</label>
+                                <input type="text" class="form-control" id="DCFactoryTextId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="DescriptionTextId" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="DescriptionTextId" disabled>
+                            </div>
+        
+                            <div class="mb-3 d-none">
+                                <label for="DateTextId" class="form-label">DC Date</label>
+                                <input type="text" class="form-control" id="DateTextId" disabled>
+                            </div>
+                        </div>
+                        <div class="card-footer d-none">
+                            <button type="button" class="btn btn-primary" id="ButtonSaveId">Save</button>
                         </div>
                     </div>
                 </div>
