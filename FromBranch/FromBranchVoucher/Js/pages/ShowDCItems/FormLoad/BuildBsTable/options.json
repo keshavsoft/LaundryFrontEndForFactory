@@ -6,7 +6,7 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
+    "pageList": "[5,10,25,50,All]",
     "pageSize": "5",
    
     "data": [],
