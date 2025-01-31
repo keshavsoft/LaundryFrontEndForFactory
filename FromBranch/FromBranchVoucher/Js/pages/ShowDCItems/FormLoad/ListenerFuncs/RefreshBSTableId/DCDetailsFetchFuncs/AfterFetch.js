@@ -26,7 +26,8 @@ let jFLocalToInnerHtmlVoucherNumberTextId = ({ inVoucherNumberTextId }) => {
 let jFLocalToInnerHtmlDateTextId = ({ inDateTextId }) => {
     let jVarLocalHtmlId = 'DateTextId';
     let jVarLocalDateTextId = document.getElementById(jVarLocalHtmlId);
-    jVarLocalDateTextId.innerHTML = inDateTextId;
+    let date = new Date(inDateTextId).toLocaleDateString('en-GB')
+    jVarLocalDateTextId.innerHTML = date;
 };
 
 let jFLocalToInnerHtmlDescriptionTextId = ({ inDescriptionTextId }) => {
