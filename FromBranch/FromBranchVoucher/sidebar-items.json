@@ -63,6 +63,10 @@
       {
         "name": "Scan",
         "url": "insertScan.html"
+      },
+      {
+        "name": "AsIs",
+        "url": "insertScanAsIs.html"
       }
     ]
   },
