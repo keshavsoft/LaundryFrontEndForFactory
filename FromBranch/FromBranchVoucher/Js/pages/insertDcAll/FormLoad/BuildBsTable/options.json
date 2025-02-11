@@ -1,0 +1,83 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "pagination":"true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",   
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
+    "filterControl":true,
+    "url": "/Custom/Cleaning/Factory/V1/Inward/Scan/Voucher/QrStatus/$FactoryName",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filtercontrol": "input"
+        },
+        {
+            "field": "Date",
+            "title": "Date",
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName",
+            "filterControl":"select",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "TimeSpan",
+            "title": "TimeSpan",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
+        },
+        
+        {
+            "title": "Scan",
+            "field": "operate",
+            "formatter": ""
+        },
+        {
+            "title": "FromBranch",
+            "formatter": "",
+            "field": "Sent",
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "title": "Scanned",
+            "field":"scanned",
+            "formatter": "",
+            "footerFormatter": ""
+        },
+        {
+            "title": "Pending",
+            "field": "Pending",
+            "formatter":"",
+            "footerFormatter": ""
+        },
+        {
+            "title": "EntryReturn",
+            "field": "EntryCancel",
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
+        }
+    ]
+}
