@@ -35,12 +35,16 @@
             "field": "ReWash"
         },
         {
-            "title": "Order Date",
-            "field": "OrderDate"
+            "field": "EntryScanDate",
+            "title": "EntryScan Date"
         },
         {
-            "title": "Delivery Date",
-            "field": "DeliveryDate"
+            "field": "OrderDate",
+            "title": "Order Date"
+        },
+        {
+            "field": "DeliveryDate",
+            "title": "Delivery Date"
         },
      
         {

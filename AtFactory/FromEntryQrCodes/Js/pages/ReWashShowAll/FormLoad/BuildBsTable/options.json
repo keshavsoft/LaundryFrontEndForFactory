@@ -9,8 +9,8 @@
     "queryParams": "",
     "rowStyle": "rowStyle",
     "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",  
-    "pagination":"true",
+    "pageSize": "5",
+    "pagination": "true",
     "columns": [
         {
             "field": "KS-Serial",
@@ -32,14 +32,17 @@
             "field": "OrderNumber"
         },
         {
-            "title": "Order Date",
-            "field": "OrderDate"
+            "field": "EntryScanDate",
+            "title": "EntryScan Date"
         },
         {
-            "title": "Delivery Date",
-            "field": "DeliveryDate"
+            "field": "OrderDate",
+            "title": "Order Date"
         },
-      
+        {
+            "field": "DeliveryDate",
+            "title": "Delivery Date"
+        },
         {
             "title": "ItemName",
             "field": "ItemName",
@@ -48,7 +51,7 @@
         {
             "title": "Rate",
             "field": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select"
         },
         {

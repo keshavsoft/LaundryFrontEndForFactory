@@ -31,6 +31,10 @@
             "field": "ReWashStatus"
         },
         {
+            "field": "EntryScanDate",
+            "title": "EntryScan Date"
+        },
+        {
             "field": "OrderDate",
             "title": "Order Date"
         },
