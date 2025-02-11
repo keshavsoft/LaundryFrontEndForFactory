@@ -45,6 +45,11 @@
             "filterControl": "select"
         },
         {
+            "field": "EntryScanDate",
+            "title": "EntryScan Date",
+            "filterControl":"input"
+        },
+        {
             "field": "OrderDate",
             "title": "Order Date"
         },

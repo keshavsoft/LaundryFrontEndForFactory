@@ -29,12 +29,19 @@
             "filterControl": "select"
         },
         {
+            "field": "EntryScanDate",
+            "title": "EntryScan Date",
+            "filterControl":"input"
+        },
+        {
             "field": "OrderDate",
-            "title": "Order Date"
+            "title": "Order Date",
+            "filterControl":"input"
         },
         {
             "field": "DeliveryDate",
-            "title": "Delivery Date"
+            "title": "Delivery Date",
+            "filterControl":"input"
         },
         {
             "field": "ItemName",
