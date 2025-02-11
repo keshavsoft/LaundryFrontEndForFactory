@@ -65,6 +65,10 @@
         "url": "insertScan.html"
       },
       {
+        "name": "DcAll",
+        "url": "insertDcAll.html"
+      },
+      {
         "name": "AsIs",
         "url": "insertScanAsIs.html"
       }
