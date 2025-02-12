@@ -12,7 +12,7 @@
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
     "filterControl":true,
-    "url": "/Custom/Cleaning/Factory/V2/Inward/Scan/Voucher/QrStatus/$FactoryName",
+    "url": "/Custom/Cleaning/Factory/V1/Inward/Scan/Voucher/QrStatus/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
@@ -24,11 +24,6 @@
             "field": "pk",
             "title": "DC",
             "filtercontrol": "input"
-        },
-        {
-            "field": "Gen",
-            "title": "Gen",
-            "footerFormatter": ""
         },
         {
             "field": "Date",
