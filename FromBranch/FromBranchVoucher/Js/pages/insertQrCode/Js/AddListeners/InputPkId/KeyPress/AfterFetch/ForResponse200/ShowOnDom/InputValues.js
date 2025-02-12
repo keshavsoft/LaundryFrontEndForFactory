@@ -3,7 +3,6 @@ let StartFunc = ({ inFetchResonse }) => {
 
     if (Object.values(jVarLocalResponseData).length > 0) {
         let jVarLocalFetchData = jVarLocalResponseData;
-        jVarGlobalPresentViewData2 = jVarLocalFetchData;
 
         jFLocalToInputInputPkId({ inInputPkId: jVarLocalFetchData.pk });
         jFLocalToInputInputProductNameId({ inInputProductNameId: jVarLocalFetchData.ItemName });
