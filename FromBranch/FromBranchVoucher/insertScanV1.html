@@ -1,0 +1,40 @@
+{% extends 'FromBranch/FromBranchVoucher/layouts/masterWithOutHead.html' %}
+
+{% block content %}
+<div class="page-heading">
+    <div class="page-title">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-md-6 order-md-1 order-last">
+                <h3>InsertScan</h3>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Inward</li>
+                    <li class="breadcrumb-item active" aria-current="page">FromBranch</li>
+                    <li class="breadcrumb-item active" aria-current="page">FromBranchVoucher</li>
+                    <li class="breadcrumb-item active" aria-current="page">Insert</li>
+                    <li class="breadcrumb-item active" aria-current="page">Scan</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <section class="section">
+        <div class="spinner-border" id="SpinnerId" role="status" style="display: none;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+        <table class="table table-dark mb-0" id="table">
+        </table>
+    </section>
+</div>
+{% endblock %}
+
+{% block js %}
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.23.5/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+<!-- <script type="module" src="./Js/pages/InsertScanV1/StartFunc.js"></script> -->
+<script type="module" src="./Js/pages/InsertScanV1/StartFunc.js"></script>
+{% endblock %}
