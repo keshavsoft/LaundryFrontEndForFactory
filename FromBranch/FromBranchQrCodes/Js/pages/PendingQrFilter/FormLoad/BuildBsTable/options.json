@@ -31,7 +31,8 @@
         },
         {
             "field": "OrderDate",
-            "title": "Order Date"
+            "title": "Order Date",
+            "filterControl": "select"
         },
         {
             "field": "DeliveryDate",
