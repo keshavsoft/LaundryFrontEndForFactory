@@ -11,7 +11,7 @@ let StartFunc = ({ inDataToShow }) => {
     jFLocalToInputDescriptionTextDCDetailsId({ inDescriptionTextDCDetailsId: jVarLocalData.Description });
     jFLocalToInputDCFactoryDCDetailsTextId({ inDCFactoryDCDetailsTextId: jVarLocalData.Factory });
     jFLocalToInputDCBranchNameDCDetailsTextId({ inDCBranchNameDCDetailsTextId: jVarLocalData.BranchName });
-    jFLocalDCBranchNameId({ inValue: jVarLocalData.BranchName })
+    jFLocalDCBranchNameId({ inValue: localStorage.getItem("BranchName") })
     jFLocalToInputRowCountId(inDataToShow.QrCount)
 };
 
@@ -98,7 +98,8 @@ let jFLocalDCBranchNameId = ({ inValue }) => {
     let jVarLocalDCBranchNameDCDetailsTextId = document.getElementById(jVarLocalHtmlId);
 
     if (jVarLocalDCBranchNameDCDetailsTextId === null === false) {
-        jVarLocalDCBranchNameDCDetailsTextId.innerHTML = inValue;
+        const modifiedBranch = inValue.replace("BranOrders", "");
+        jVarLocalDCBranchNameDCDetailsTextId.innerHTML = modifiedBranch;
     };
 };
 
