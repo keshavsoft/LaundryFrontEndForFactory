@@ -12,7 +12,7 @@
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
     "filterControl":true,
-    "url": "/Custom/Cleaning/Factory/V2/Inward/Scan/Voucher/QrStatus/$FactoryName",
+    "url": "/Custom/Cleaning/Factory/V2/Inward/Scan/Voucher/OnlyScanDc/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
