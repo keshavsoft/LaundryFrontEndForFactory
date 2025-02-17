@@ -9,9 +9,9 @@ import { StartFunc as ColumnSerial } from "./ColumnSerial/entryFile.js";
 
 let StartFunc = ({ inColumns }) => {
     let LocalColumns = inColumns;
-    let LocalColumnOperateFine = LocalColumns.find(element => element.field === "operate");
+    // let LocalColumnOperateFine = LocalColumns.find(element => element.field === "operate");
 
-    ColumnOperate({ inFindColumn: LocalColumnOperateFine });
+    // ColumnOperate({ inFindColumn: LocalColumnOperateFine });
 
     let LocalColumnSentFromBranch= LocalColumns.find(element => element.field === "Sent");
 
