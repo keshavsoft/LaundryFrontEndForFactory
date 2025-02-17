@@ -49,11 +49,6 @@
         },
         
         {
-            "title": "Scan",
-            "field": "operate",
-            "formatter": ""
-        },
-        {
             "title": "FromBranch",
             "formatter": "",
             "field": "Sent",
