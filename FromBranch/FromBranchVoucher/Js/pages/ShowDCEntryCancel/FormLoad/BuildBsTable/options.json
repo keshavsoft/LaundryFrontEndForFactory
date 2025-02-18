@@ -1,12 +1,9 @@
 {
     "idfield": "pk",
     "showFooter": "true",
-    "search": true,
     "searchHighlight": true,
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
-    "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
     "pageSize": "5",   
     "data": [],
     "onClickRow": "",
@@ -18,31 +15,31 @@
         },
         {
             "field": "QrCodeId",
-            "title": "QrCode"
+            "title": "Qr"
         },
         {
             "field": "OrderNumber",
-            "title": "OrderNumber",
+            "title": "Ord_No",
             "filtercontrol": "select"
         },
         {
-            "title": "OrderDate",
+            "title": "Ord_Dt",
             "field": "OrderDate",
             "filtercontrol": "select"
         },
         {
-            "title": "DeliveryDate",
+            "title": "Delivery_Dt",
             "field": "DeliveryDate",
             "filtercontrol": "select"
         },
         {
             "field": "BranchName",
-            "title": "Branch Name",
+            "title": "Branch",
             "filtercontrol": "select"
         },
         {
             "field": "ItemName",
-            "title": "ItemName",
+            "title": "Item",
             "filtercontrol": "select"
         },
         {
