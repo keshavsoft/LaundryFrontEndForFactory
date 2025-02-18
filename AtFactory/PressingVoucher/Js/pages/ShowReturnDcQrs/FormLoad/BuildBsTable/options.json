@@ -1,13 +1,8 @@
 {
     "idfield": "pk",
     "showFooter": "true",
-    "search": true,
-    "searchHighlight": true,
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
-    "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",
    "filterControl": "true",
     "data": [],
     "onClickRow": "",
