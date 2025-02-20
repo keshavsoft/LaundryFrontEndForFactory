@@ -26,15 +26,9 @@
             "filtercontrol": "input"
         },
         {
-            "field": "Gen",
-            "title": "Gen",
-            "footerFormatter": ""
-        },
-        {
             "field": "Date",
             "title": "Date",
-            "filtercontrol": "select",
-            "class": "d-none d-sm-table-cell"
+            "filtercontrol": "select"
         },
         {
             "field": "BranchName",
