@@ -61,17 +61,8 @@
             "filtercontrol": "select"
         },
         {
-            "title": "Re Wash",
-            "field": "ReWashStatus"
-        },
-        {
             "title": "Branch Name",
             "field": "BranchName",
-            "filtercontrol": "select"
-        },
-        {
-            "title": "Return",
-            "field": "EntryReturnStarus",
             "filtercontrol": "select"
         },
         {
