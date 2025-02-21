@@ -2,14 +2,19 @@ import { StartFunc as InputValues } from "./InputValues.js";
 
 let StartFunc = ({ inFromFetch }) => {
     let jVarLocalFetchData = inFromFetch;
-    
-        jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
-        jFLocalToInputAlertSuccessItemNameId(jVarLocalFetchData.QrData.ItemName );
-        jFLocalToInputInputPkId("");
-        JFlocalShowAlertFunc();
-        jFLocalToInputRowCountId(jVarLocalFetchData.QrCount)
-        InputValues({ inFetchResonse: jVarLocalFetchData.QrData });
-        InputPkId()
+    let jVarLocalAddOnString = jVarLocalFetchData.QrData.AddOnArray
+        .map(e => Object.values(e).filter(ele => typeof ele === "string" && ele))
+        .flat()
+        .join(", ");
+
+    jFLocalToInputAlertSuccessIdUserName(jVarLocalFetchData.ScanNo);
+    jFLocalToInputAlertSuccessItemNameId(jVarLocalFetchData.QrData.ItemName)
+    jFLocalToInputAlertSuccessAddOnServiceId(jVarLocalAddOnString)
+    jFLocalToInputInputPkId("");
+    JFlocalShowAlertFunc();
+    jFLocalToInputRowCountId(jVarLocalFetchData.QrCount)
+    InputValues({ inFetchResonse: jVarLocalFetchData.QrData });
+    InputPkId()
 };
 
 let jFLocalToInputAlertSuccessIdUserName = (inValue) => {
@@ -19,6 +24,16 @@ let jFLocalToInputAlertSuccessIdUserName = (inValue) => {
     if (jVarLocalAlertSuccessIdUserName === null === false) {
         jVarLocalAlertSuccessIdUserName.innerHTML = inValue;
     };
+};
+
+let jFLocalToInputAlertSuccessAddOnServiceId = (inValue) => {
+    let jVarLocalHtmlId = 'AlertSuccessAddOnServiceId';
+    let jVarLocalAlertSuccessIdUserName = document.getElementById(jVarLocalHtmlId);
+
+    if (jVarLocalAlertSuccessIdUserName === null === false) {
+        jVarLocalAlertSuccessIdUserName.innerHTML = inValue;
+    };
+
 };
 
 let jFLocalToInputAlertSuccessItemNameId = (inValue) => {
