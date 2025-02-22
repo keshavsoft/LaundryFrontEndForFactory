@@ -35,8 +35,7 @@
         },
         {
             "field": "ReWash",
-            "title": "Rewash",
-            "footerFormatter": "totalFormatter"
+            "title": "Rewash"
         },
         {
             "title": "Return",
