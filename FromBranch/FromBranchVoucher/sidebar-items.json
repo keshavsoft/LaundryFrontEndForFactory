@@ -61,7 +61,7 @@
         "url": "insertToReturnDC.html"
       },
       {
-        "name": "Scan",
+        "name": "ToScanOnly",
         "url": "insertScan.html"
       },
       {
