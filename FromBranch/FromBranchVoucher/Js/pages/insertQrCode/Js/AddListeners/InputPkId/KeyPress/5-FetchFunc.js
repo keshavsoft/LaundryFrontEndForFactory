@@ -4,7 +4,7 @@ let StartFunc = async () => {
     let jVarLocalFetchHeaders = StartFuncFetchHeaders();
 
     let jVarLocalbranchName = localStorage.getItem("FactoryName")
-    let jVarLocalFetchUrl = `/Custom/Cleaning/Factory/V1/Inward/Scan/QrCode/${jVarLocalbranchName}`;
+    let jVarLocalFetchUrl = `/Custom/Cleaning/Factory/V2/Inward/Scan/QrCode/${jVarLocalbranchName}`;
 
     let response = await fetch(jVarLocalFetchUrl, jVarLocalFetchHeaders);
 
