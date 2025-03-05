@@ -1,99 +1,139 @@
-{% set title = 'Dashboard' %} {% set filename = 'index.html' %} 
+{% set title = 'Dashboard' %} {% set filename = 'index.html' %}
 {% extends 'FromBranch/FromBranchQrCodes/layouts/masterWithOutBreadcrumb.html' %}
 {% block styles %}
 <link rel="stylesheet" href="/assets/scss/iconly.scss" />
 {% endblock %} {% block content %}
 <div class="page-heading"></div>
 <div class="page-content">
-  <section class="row">
-    <div class="col-12 col-lg-12">
-      <div class="row">
-        <div class="col-6 col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body px-4 py-4-5">
-              <div class="row">
-                <div
-                  class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start"
-                >
-                  <div class="stats-icon purple mb-2">
-                    <img src="./assets/static/images/samples/all qr codes (1).jpg"/>
-                  </div>
-                </div>
-                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                  <h6 class="text-muted font-semibold">All Qrs</h6>
-                  <h6 class="font-extrabold mb-0">120</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body px-4 py-4-5">
-              <div class="row">
-                <div
-                  class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start"
-                >
-                  <div class="stats-icon blue mb-2">
-                    <img src="./assets/static/images/samples/pending.png"/>
-                  </div>
-                </div>
-                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                  <h6 class="text-muted font-semibold">Pending Qrs</h6>
-                  <h6 class="font-extrabold mb-0">100</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body px-4 py-4-5">
-              <div class="row">
-                <div
-                  class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start"
-                >
-                  <div class="stats-icon green mb-2">
-                    <img src="./assets/static/images/samples/qr-scan.png"/>
-                  </div>
-                </div>
-                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                  <h6 class="text-muted font-semibold">Scanned Qrs</h6>
-                  <h6 class="font-extrabold mb-0">120</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-lg-3 col-md-6">
-          <div class="card">
-            <div class="card-body px-4 py-4-5">
-              <div class="row">
-                <div
-                  class="col-md-4 col-lg-12 col-xl-12 col-xxl-5 d-flex justify-content-start"
-                >
-                  <div class="stats-icon red mb-2">
-                    <img src="./assets/static/images/samples/return.png"/>
-                  </div>
-                </div>
-                <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                  <h6 class="text-muted font-semibold">Return Qrs</h6>
-                  <h6 class="font-extrabold mb-0">100</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <section class="section dashboard">
+    <div class="row">
+      <div class="col">
+        <h4>Factory Inward</h4>
       </div>
-      <div class="row">
-        <div class="col-12">
-          <div id="chart-profile-visit">
-            <img src="./assets/static/images/samples/sampless.png" alt="Truck"
-              style="object-fit:fill; height:0%; width: 60%; margin-left: 10.5rem" />
+    </div>
+    <div class="row">
+      <!-- Left side columns -->
+      <div class="col-12">
+        <div class="row d-flex flex-wrap">
+
+          <!-- All Qrs -->
+          <div class="col-12 col-lg-3 col-md-6">
+            <a href="../FromBranchQrCodes/QRShowDcFilter.html" class="text-decoration-none">
+              <div class="card info-card sales-card">
+                <div class="filter">
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>All_Qrs</h6>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">All_Qrs</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <img src="./assets/static/images/samples/all qr codes (1).jpg" />
+                    </div>
+                    <div class="ps-3">
+                      <h6>All Qrs</h6>
+                      <span class="text-success small pt-1 fw-bold">12%</span>
+                      <span class="text-muted small pt-2 ps-1">increase</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
+          <!-- End of All Qrs -->
+
+          <!-- Pending Qrs -->
+          <div class="col-12 col-lg-3 col-md-6">
+            <a href="../FromBranchQrCodes/PendingQrFilter.html" class="text-decoration-none">
+              <div class="card info-card sales-card">
+                <div class="filter">
+                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                    <li class="dropdown-header text-start">
+                      <h6>Pending_Qrs</h6>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Pending_Qrs</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <img src="./assets/static/images/samples/pending.png" />
+                    </div>
+                    <div class="ps-3">
+                      <h6>Pending Qrs</h6>
+                      <span class="text-success small pt-1 fw-bold">12%</span>
+                      <span class="text-muted small pt-2 ps-1">increase</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Pending Qrs -->
+
+          <!-- Scanned Qrs -->
+          <div class="col-12 col-lg-3 col-md-6">
+            <a href="../FromBranchQrCodes/CompletedQrFilter.html" class="text-decoration-none">
+              <div class="card info-card revenue-card">
+                <div class="card-body">
+                  <h5 class="card-title">Scanned_Qrs</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <img src="./assets/static/images/samples/qr-scan.png"/>
+                    </div>
+                    <div class="ps-3">
+                      <h6>Scanned Qrs</h6>
+                      <span class="text-success small pt-1 fw-bold">8%</span>
+                      <span class="text-muted small pt-2 ps-1">increase</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- End Scanned Qrs -->
+
+          <!-- Return DC -->
+          <div class="col-12 col-lg-3 col-md-6">
+            <a href="../FromBranchQrCodes/ReturnFilters.html" class="text-decoration-none">
+              <div class="card info-card customers-card">
+                <div class="card-body">
+                  <h5 class="card-title">Return_DC</h5>
+                  <div class="d-flex align-items-center">
+                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                      <img src="./assets/static/images/samples/return.png"/>
+                    </div>
+                    <div class="ps-3">
+                      <h6>Return DC</h6>
+                      <span class="text-danger small pt-1 fw-bold">12%</span>
+                      <span class="text-muted small pt-2 ps-1">decrease</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- End Return DC -->
+
         </div>
       </div>
     </div>
+    <!-- End Left side columns -->
+
+    <div class="row">
+      <div class="col-12">
+        <div id="chart-profile-visit">
+          <img src="./assets/static/images/samples/sampless.png" alt="Truck"
+            style="object-fit:fill; height:0%; width: 60%; margin-left: 10.5rem" />
+        </div>
+      </div>
+    </div>
+
   </section>
 </div>
 {% endblock %} {% block js %}
