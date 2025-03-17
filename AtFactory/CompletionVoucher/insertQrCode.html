@@ -30,13 +30,14 @@
                 d="M1.146 4.854a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H12.5A2.5 2.5 0 0 1 15 6.5v8a.5.5 0 0 1-1 0v-8A1.5 1.5 0 0 0 12.5 5H2.707l3.147 3.146a.5.5 0 1 1-.708.708z" />
         </svg>
     </button>
- 
+
     <main>
         <div class="container">
 
             <div id="AlertSuccessId" class="alert alert-success alert-dismissible fade show mt-2" role="alert"
                 style="display: none;">
-                <strong id="AlertSuccessIdUserName">SavedPk</strong> - <strong id="AlertSuccessItemNameId">SavedPk</strong> Scan Sucessfully.
+                <strong id="AlertSuccessIdUserName">SavedPk</strong> - <strong
+                    id="AlertSuccessItemNameId">SavedPk</strong> Scan Sucessfully.
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
@@ -99,8 +100,8 @@
                         </div>
                     </div>
                     <div class="container">
-                        <button type="button" class="btn mt-3 RowCountClass" style="font-size: 50px; background-color: #0450a8; color:white;"
-                            id="RowCountId">0</button>
+                        <button type="button" class="btn mt-3 RowCountClass"
+                            style="font-size: 50px; background-color: #0450a8; color:white;" id="RowCountId">0</button>
                     </div>
 
 
@@ -209,7 +210,34 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
 
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
+                        </div>
+
+                        <div class="mb-3 position-relative">
+                            <input type="password" id="PasswordId" class="form-control pe-5" placeholder="Password">
+                            <button class="btn position-absolute top-50 end-0 translate-middle-y me-1" type="button"
+                                id="togglePassword">
+                                <i class="bi bi-eye"></i>
+                            </button>
+                        </div>
+
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

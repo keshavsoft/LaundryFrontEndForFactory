@@ -51,7 +51,7 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 <img class="rounded-circle" src="./assets/static/images/faces/7.jpg" alt="Header Avatar"
                                     style="width: 40px; height: 40px; object-fit: cover;">
-                                <span class="d-none d-xl-inline-block ms-1">Keshavsoft</span>
+                                <span class="d-none d-xl-inline-block ms-1" id="UserNameId">Keshavsoft</span>
                                 <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                             </button>
 
@@ -62,7 +62,9 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <!-- <li><a class="dropdown-item" href="#" id="showImage">Show Image</a></li> -->
-                                <li><a class="dropdown-item" href="#" id="logout">Log Out</a></li>
+                                <li><a class="dropdown-item"
+                                        href="../../../../../LoginUsers/HtmlFiles/loginFactory.html" id="logout">Log
+                                        Out</a></li>
                             </ul>
                         </div>
                         <!-- Image to be shown/hidden -->
@@ -72,6 +74,34 @@
                 </div>
                 {% block content %}{% endblock %}
                 {% include '../partials/footer.html' %}
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="LoginModalId" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form class="login-form">
+                        <h2 class="text-center mb-4">Login</h2>
+
+                        <div class="mb-3">
+                            <input type="text" id="UsernameId" class="form-control" placeholder="User name" autofocus>
+                        </div>
+
+                        <div class="mb-3 position-relative">
+                            <input type="password" id="PasswordId" class="form-control pe-5" placeholder="Password">
+                            <button class="btn position-absolute top-50 end-0 translate-middle-y me-1" type="button"
+                                id="togglePassword">
+                                <i class="bi bi-eye"></i>
+                            </button>
+                        </div>
+
+                        <div class="mb-3 text-center mt-3">
+                            <button type="button" id="LoginButtonId"
+                                class="btn btn-primary btn-block w-100">Login</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
