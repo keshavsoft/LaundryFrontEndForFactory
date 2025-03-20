@@ -1,0 +1,83 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "responseHandler": "",
+    "queryParams": "",
+    "rowStyle": "",
+    "pagination": "true",
+    "pageList": "[5, 10, 25, 50, 100, All]",
+    "pageSize": "5",
+    "filterControl":true,
+   
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn"
+        },
+        {
+            "field": "QrCodeId",
+            "title": "Qr Code",
+            "filterControl": "select"
+        },
+        {
+            "title": "Branch",
+            "field": "BranchName",
+           "filterControl": "select"
+        },
+        {
+            "title": "Status",
+            "field": "Status",
+            "filterControl": "select"
+        },
+        {
+            "title": "Return",
+            "filterControl": "select",
+            "field": "EntryReturnStarus"
+           
+        },
+        {
+            "field": "OrderNumber",
+            "title": "Order #",
+            "filterControl": "select"
+        },
+        {
+            "field": "ItemName",
+            "title": "Item Name",
+           "filterControl": "select"
+        },
+        {
+            "field": "Rate",
+            "title": "Rate",
+            "align":"right",
+            "formatter":"symbolFormat",
+            "footerFormatter": "jVarLocalFormatterFunc"
+        },
+        {
+            "field": "OrderDate",
+            "title": "Order Date"
+        },
+        {
+            "field": "DeliveryDate",
+            "title": "Delivery Date"
+        },
+        {
+            "field": "VoucherNumber",
+            "title": "DC #",
+           "filterControl": "select"
+        },
+        {
+            "title": "DC Date",
+            "field": "DCDate"
+        },
+     
+        {
+            "title": "Gen Span",
+            "field": "TimeSpan"
+        }
+    ]
+}
