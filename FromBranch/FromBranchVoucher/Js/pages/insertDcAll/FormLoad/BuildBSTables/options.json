@@ -1,0 +1,71 @@
+{
+    "toolbar": "#toolbar",
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "pagination":"true",
+    "pageList": "[5, 10, 25 ]",
+    "pageSize": "5",   
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
+    "filterControl":true,
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filterControl": "input"
+        },
+        {
+            "field": "Date",
+            "title": "Date",
+            "filterControl": "input",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "BranchName",
+            "title": "BranchName",
+            "filterControl":"select",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "TimeSpan",
+            "title": "TimeSpan",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "class": "d-none d-sm-table-cell"
+        },
+        
+        {
+            "title": "FromBranch",
+            "formatter": "",
+            "field": "Sent",
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "title": "Scanned",
+            "field":"scanned",
+            "formatter": "",
+            "footerFormatter": ""
+        },
+        {
+            "title": "EntryReturn",
+            "field": "EntryCancel",
+            "footerFormatter": "",
+            "class": "d-none d-sm-table-cell"
+        }
+    ]
+}
