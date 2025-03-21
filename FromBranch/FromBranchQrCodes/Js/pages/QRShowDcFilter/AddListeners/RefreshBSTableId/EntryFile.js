@@ -1,10 +1,11 @@
 import { StartFunc as StartFuncFuncToRun } from "./FetchFromFuncs/Entry.js";
 
 let StartFunc = () => {
-    let jVarLocalCustomerNameInputId = "ShowButtonId";
-    let jVarLocalHtmlId = document.getElementById(jVarLocalCustomerNameInputId);
+    const arrClass = document.querySelectorAll(".ShowButtonId");
 
-    jVarLocalHtmlId.addEventListener("click", StartFuncFuncToRun);
+    for (let i of arrClass) {
+        i.addEventListener("click", StartFuncFuncToRun);
+    };
 };
 
 export { StartFunc }
