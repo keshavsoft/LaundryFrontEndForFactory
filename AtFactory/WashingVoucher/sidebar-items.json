@@ -43,6 +43,10 @@
       {
         "name": "ToDC",
         "url": "insertToDC.html"
+      },
+      {
+        "name": "ToDCTimeSpan",
+        "url": "insertToDCTimeSpan.html"
       }
     ]
   },
