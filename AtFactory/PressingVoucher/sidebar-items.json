@@ -48,9 +48,28 @@
       
     ]
   },
+  {
+    "name": "TodayInsert",
+    "key": "Todayinsert",
+    "icon": "stack",
+    "submenu": [
+      {
+        "name": "ToDC",
+        "url": "TodayinsertToDc.html"
+      },
+      {
+        "name": "ToReturn-DC",
+        "url": "TodayinsertReaturnDc.html"
+      },
+      {
+        "name": "ToRewash-DC",
+        "url": "TodayinsertToRewashDC.html"
+      }
+    ]
+  }, 
   
   {
-    "name": "Insert",
+    "name": "InsertAll",
     "key": "insert",
     "icon": "stack",
     "submenu": [
