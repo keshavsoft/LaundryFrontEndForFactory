@@ -41,14 +41,18 @@
     "icon": "stack",
     "submenu": [
       {
-        "name": "ToDC",
+        "name": "ToDcToday",
+        "url": "insertTodayToDC.html"
+      },
+      {
+        "name": "ToDCAll",
         "url": "insertToDC.html"
       },
       {
         "name": "ToDCTimeSpan",
         "url": "insertToDCTimeSpan.html"
       }
-    ]
+      ]
   },
   {
     "name": "Status",
