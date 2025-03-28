@@ -7,11 +7,7 @@
     "onClickRow": "",
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
-    "pagination":"true",
-    "pageList": "[5, 10, 25 ]",
-    "pageSize": "5",
     "filterControl": "true",
-   
     "rowStyle": "rowStyle",
     "url": "/Custom/Cleaning/Factory/V1/Process/Pressing/Scan/Voucher/$FactoryName",
     "columns": [
@@ -42,7 +38,7 @@
         },
         {
             "title": "Qrs",
-            "field":"ItemDetails",
+            "field": "ItemDetails",
             "formatter": "ItemsFormatter",
             "footerFormatter": "totalFormatter"
         },
