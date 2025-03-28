@@ -6,13 +6,11 @@
     "data": [],
     "onClickRow": "",
     "responseHandler": "responseHandler",
-    "pagination":"true",
+    "pagination": "true",
     "pageList": "[5, 10, 25, All]",
     "pageSize": "5",
-   
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
-    "url": "/Custom/Cleaning/Factory/V1/Process/Washing/Scan/Voucher/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
