@@ -36,7 +36,11 @@
     "icon": "stack",
     "submenu": [
       {
-        "name": "ToDC",
+        "name": "TodayToDC",
+        "url": "insertTodayToDC.html"
+      },
+      {
+        "name": "ToDCAll",
         "url": "insertToDC.html"
       }
     ]
@@ -47,7 +51,11 @@
     "icon": "bi bi-file-earmark-plus-fill",
     "submenu": [
       {
-        "name": "GenerateDC",
+        "name": "TodayGenerateDC",
+        "url": "GenerateCreateBranchTodayDC.html"
+      },
+      {
+        "name": "GenerateDCAll",
         "url": "GenerateCreateBranchDC.html"
       }
     ]

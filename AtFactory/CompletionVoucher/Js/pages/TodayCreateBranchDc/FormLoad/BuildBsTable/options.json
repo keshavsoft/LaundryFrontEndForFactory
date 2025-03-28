@@ -1,0 +1,55 @@
+{
+    "idfield": "pk",
+    "showFooter": "true",
+    "search": true,
+    "searchHighlight": true,
+    "data": [],
+    "onClickRow": "",
+    "responseHandler": "responseHandler",
+    "queryParams": "queryParams",
+    "rowStyle": "rowStyle",
+    "pagination":"true",
+    "pageList":"[5,10, 25, 50, 100, all]",
+    "url": "/Custom/Cleaning/Factory/V1/Outward/Scan/Voucher/$FactoryName",
+    "columns": [
+        {
+            "field": "KS-Serial",
+            "title": "#",
+            "formatter": "jFLocalSerialColumn",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "pk",
+            "title": "DC",
+            "filtercontrol": "input"
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "filtercontrol": "select",
+            "class": "d-none d-sm-table-cell"
+        },
+        {
+            "field": "TimeSpan",
+            "title": "TimeSpan"
+        },
+        {
+            "title": "Qrs",
+            "formatter": "ItemsFormatter",
+            "footerFormatter": "priceFormatter"
+        },
+        {
+            "title": "DCGenerate",
+            "field": "operate",
+            "formatter": "",
+            "align":"center"
+        },
+        {
+            "title": "Show",
+            "field": "RefDC",
+            "formatter": "",
+            "align":"center",
+            "class": "d-none d-sm-table-cell"
+        }
+    ]
+}

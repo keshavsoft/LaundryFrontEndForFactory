@@ -6,17 +6,38 @@
         <div class="page-title">
             <div class="row">
                 <div class="col-12 col-lg-12 col-md-6 order-md-1 order-last">
-                    <h3>GenerateDC</h3>
+                    <h3>GenerateDCAll</h3>
                     <ol class="breadcrumb d-none d-sm-flex">
                         <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Process</li>
                         <li class="breadcrumb-item active" aria-current="page">Completion</li>
                         <li class="breadcrumb-item active" aria-current="page">CompletionVoucher</li>
                         <li class="breadcrumb-item active" aria-current="page">GenerateDC</li>
-                        <li class="breadcrumb-item active" aria-current="page">GenerateDC</li>
+                        <li class="breadcrumb-item active" aria-current="page">GenerateDCAll</li>
 
                     </ol>
                 </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group row align-items-centerv">
+                    <label for="FromDateInputId" class="col-md-4 col-form-label text-right">From Date</label>
+                    <div class="col-md-8">
+                        <input id="FromDateInputId" type="date" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group row align-items-center">
+                    <label for="ToDateInputId" class="col-md-4 col-form-label text-right">To Date</label>
+                    <div class="col-md-8">
+                        <input id="ToDateInputId" type="date" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-end">
+                <button class="btn btn-success ShowButtonId">Show</button>
             </div>
         </div>
         <section class="section">
@@ -109,5 +130,5 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- <script type="module" src="./Js/pages/insertToDC/StartFunc.js"></script> -->
-<script type="module" src="./Js/pages/CreateBranchDC/StartFunc.js"></script>
+<script type="module" src="./Js/pages/CreateBranchDCAll/StartFunc.js"></script>
 {% endblock %}
