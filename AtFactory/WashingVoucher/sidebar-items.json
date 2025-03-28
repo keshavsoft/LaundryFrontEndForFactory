@@ -47,12 +47,8 @@
       {
         "name": "ToDCAll",
         "url": "insertToDC.html"
-      },
-      {
-        "name": "ToDCTimeSpan",
-        "url": "insertToDCTimeSpan.html"
       }
-      ]
+    ]
   },
   {
     "name": "Status",
