@@ -9,7 +9,7 @@
     "queryParams": "queryParams",
     "filterControl": "true",
     "rowStyle": "rowStyle",
-    "url": "/Custom/Cleaning/Factory/V1/Process/Pressing/ReWash/Voucher/$FactoryName",
+    "url": "/Custom/Cleaning/Factory/V1/Process/Pressing/ReWash/Voucher/Today/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
