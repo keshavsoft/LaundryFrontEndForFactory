@@ -8,7 +8,7 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
-    "url": "/Custom/Cleaning/Factory/V1/Process/Washing/Scan/Voucher/$FactoryName",
+    "url": "/Custom/Cleaning/Factory/V1/Process/Washing/Scan/Voucher/Today/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
