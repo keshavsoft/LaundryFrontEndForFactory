@@ -1,6 +1,6 @@
 let StartFunc = (inData) => {
-    if (inData?.SendDc === true) {
-        jFLocalToURL({ inRowPk: inData?.pk });
+    if (inData.AsIs?.SendDc === true) {
+        jFLocalToURL({ inRowPk: inData.AsIs?.pk });
     } else {
         jFLocalfalsFunc();
     };
