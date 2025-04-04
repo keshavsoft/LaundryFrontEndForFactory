@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Cleaning/Factory/V1/Inward/Return/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/EntryCancelDc/Show"
+            "GetUrl": "/Custom/Cleaning/Factory/V2/Inward/Return/Voucher"
         },
         "DcCount": {
             "GetUrl": "/Custom/Cleaning/Factory/V1/Inward/Return/QrCode/RowCount"
