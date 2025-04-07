@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Clients/Laundry/Factory/Process/Washing/Scan/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/WashingDC/Show"
+            "GetUrl": "/Custom/Cleaning/Factory/V2/Process/Washing/Scan/QrCode/DcDetails"
         },
         "DcCount": {
             "GetUrl": "/Custom/Clients/Laundry/Factory/Process/Washing/Scan/QrCode/RowCount"
