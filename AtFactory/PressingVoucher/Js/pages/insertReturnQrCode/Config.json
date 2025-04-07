@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Cleaning/Factory/V1/Process/Pressing/Return/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/PressingCancelDC/Show"
+            "GetUrl": "/Custom/Cleaning/Factory/V2/Process/Pressing/Return/QrCode/ScanDcDetails"
         },
         "DcCount": {
             "GetUrl": "/Custom/Cleaning/Factory/V1/Process/Pressing/Return/QrCode/RowCount"
