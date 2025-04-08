@@ -3,7 +3,7 @@
     "PostUrl": "/Custom/Cleaning/Factory/V1/Outward/Scan/QrCode",
     "FormLoad": {
         "DcDetails": {
-            "GetUrl": "/binV4/CompletionDC/Show"
+            "GetUrl": "/Custom/Cleaning/Factory/V1/Outward/Scan/Voucher/RowData"
         },
         "DcCount": {
             "GetUrl": "/Custom/Cleaning/Factory/V1/Outward/Scan/QrCode/RowCount"
