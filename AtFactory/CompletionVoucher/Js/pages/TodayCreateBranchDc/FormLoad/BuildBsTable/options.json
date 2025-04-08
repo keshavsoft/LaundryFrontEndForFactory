@@ -10,7 +10,7 @@
     "rowStyle": "rowStyle",
     "pagination":"true",
     "pageList":"[5,10, 25, 50, 100, all]",
-    "url": "/Custom/Cleaning/Factory/V1/Outward/Scan/Voucher/$FactoryName",
+    "url": "/Custom/Cleaning/Factory/V2/Outward/Scan/Voucher/Today/$FactoryName",
     "columns": [
         {
             "field": "KS-Serial",
