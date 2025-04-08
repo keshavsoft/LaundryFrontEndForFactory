@@ -1,5 +1,5 @@
 {
     "routePath": "binV4",
     "tableName": "Openings",
-    "GetUrl":"/Custom/Cleaning/Factory/V1/Outward/ToBranch/DcGenerate"
+    "GetUrl":"/Custom/Cleaning/Factory/V2/Outward/ToBranch/DcGenerate"
 }
