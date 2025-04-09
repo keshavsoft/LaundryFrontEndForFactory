@@ -1,4 +1,5 @@
 {
+    "toolbar": "#toolbar",
     "idfield": "pk",
     "showFooter": "true",
     "search": true,
@@ -8,8 +9,8 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
-    "pagination":"true",
-    "pageList":"[5,10, 25, 50, 100, all]",
+    "pagination": "true",
+    "pageList": "[5,10, 25, 50, 100, all]",
     "url": "/Custom/Cleaning/Factory/V1/Outward/Scan/Voucher/$FactoryName",
     "columns": [
         {
