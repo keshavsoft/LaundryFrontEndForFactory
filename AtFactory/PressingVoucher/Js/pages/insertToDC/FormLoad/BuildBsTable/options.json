@@ -1,5 +1,6 @@
 {
     "idfield": "pk",
+    "toolbar": "#toolbar",
     "showFooter": "true",
     "search": true,
     "searchHighlight": true,
