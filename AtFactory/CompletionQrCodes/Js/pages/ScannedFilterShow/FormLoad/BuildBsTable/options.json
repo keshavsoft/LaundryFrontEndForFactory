@@ -1,4 +1,5 @@
 {
+    "toolbar": "#toolbar",
     "idfield": "pk",
     "showFooter": "true",
     "search": true,
@@ -10,7 +11,7 @@
     "rowStyle": "",
     "pagination": "true",
     "pageList": "[5, 10, 25, 50, 100, All]",
-    "pageSize": "5",   
+    "pageSize": "5",
     "filterControl": true,
     "columns": [
         {
@@ -31,17 +32,17 @@
         {
             "field": "EntryScanDate",
             "title": "EntryScan Date",
-            "filterControl":"input"
+            "filterControl": "input"
         },
         {
             "field": "OrderDate",
             "title": "Order Date",
-            "filterControl":"input"
+            "filterControl": "input"
         },
         {
             "field": "DeliveryDate",
             "title": "Delivery Date",
-            "filterControl":"input"
+            "filterControl": "input"
         },
         {
             "field": "ItemName",
@@ -51,7 +52,7 @@
         {
             "field": "Rate",
             "title": "Rate",
-            "align":"right",
+            "align": "right",
             "filtercontrol": "select",
             "footerFormatter": "totalFormatter"
         },

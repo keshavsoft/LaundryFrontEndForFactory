@@ -27,6 +27,14 @@
       {
         "name": "ScannedDCQrs",
         "url": "DCItems.html"
+      },
+      {
+        "name": "GenDcShow",
+        "url": "DCGenDcShow.html"
+      },
+      {
+        "name": "GenerateAllShowAll",
+        "url": "DCGenerateAllShowAll.html"
       }
     ]
   },
