@@ -9,8 +9,8 @@
     "responseHandler": "responseHandler",
     "queryParams": "queryParams",
     "rowStyle": "rowStyle",
-    "pagination":"true",
-    "pageList":"[5,10, 25, 50, 100, all]",
+    "pagination": "true",
+    "pageList": "[5,10, 25, 50, 100, all]",
     "columns": [
         {
             "field": "KS-Serial",
@@ -41,17 +41,9 @@
             "footerFormatter": "priceFormatter"
         },
         {
-            "title": "DCGenerate",
+            "title": "Scan",
             "field": "operate",
-            "formatter": "",
-            "align":"center"
-        },
-        {
-            "title": "Show",
-            "field": "RefDC",
-            "formatter": "",
-            "align":"center",
-            "class": "d-none d-sm-table-cell"
+            "formatter": ""
         }
     ]
 }
