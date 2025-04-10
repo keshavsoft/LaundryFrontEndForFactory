@@ -55,6 +55,17 @@
     ]
   },
   {
+    "name": "InWashing",
+    "key": "InWashing",
+    "icon": "bi bi-check-circle",
+    "submenu": [
+     {
+        "name": "InWashingFilter",
+        "url": "InWahing.html"
+      }
+    ]
+  },
+  {
     "name": "Return",
     "key": "Return",
     "icon": "bi bi-arrow-counterclockwise",

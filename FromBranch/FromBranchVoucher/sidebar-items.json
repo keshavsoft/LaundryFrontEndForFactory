@@ -78,11 +78,7 @@
     "name": "Status",
     "key": "Status",
     "icon": "stack",
-    "submenu": [
-      {
-        "name": "DC",
-        "url": "StatusDC.html"
-      },
+    "submenu": [ 
       {
         "name": "BranchFiter",
         "url": "StatusDCBranchFilter.html"
