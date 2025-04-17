@@ -55,16 +55,16 @@
   },
   {
     "name": "GenerateDC",
-    "key": "generate",
+    "key": "Generate",
     "icon": "bi bi-file-earmark-plus-fill",
     "submenu": [
       {
         "name": "TodayGenerateDC",
-        "url": "generateCreateBranchTodayDc.html"
+        "url": "GenerateCreateBranchTodayDc.html"
       },
       {
         "name": "GenerateDCAll",
-        "url": "generateCreateBranchDC.html"
+        "url": "GenerateCreateBranchDC.html"
       }
     ]
   },
